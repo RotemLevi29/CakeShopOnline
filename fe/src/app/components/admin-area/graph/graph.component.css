@@ -1,0 +1,10 @@
+main {
+    font-size: 40px;
+
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,27 @@
+div {
+	width: 250px;
+    /* height: 25%; */
+
+    display: inline-flex;
+    align-items: center;
+    background-image: linear-gradient(45deg, rgb(238, 178, 144), white);
+    padding-right: 0;
+}
+
+.card{
+    margin: 2.5%;
+
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    vertical-align: middle;
+}
+
+a {
+    margin-left: auto;
+}

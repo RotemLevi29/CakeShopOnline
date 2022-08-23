@@ -1,0 +1,17 @@
+form {
+    width: 300px;
+    margin: auto;
+    text-align: left;
+}
+
+input, button, label {
+	width: 100%;
+    box-sizing: border-box;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+
+span {
+    color: rgb(17, 16, 16);
+    font-size: x-large;
+}

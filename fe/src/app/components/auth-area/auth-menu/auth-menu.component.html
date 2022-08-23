@@ -1,0 +1,22 @@
+<div>
+    
+    <!-- <ng-container *ngIf="!user">
+        <span>Hello Guest</span>
+        <span> | </span>
+        <a routerLink="/login" routerLinkActive="active" class="btn btn-dark">התחבר</a>
+        <span> | </span>
+        <a routerLink="/register" routerLinkActive="active" class="btn btn-dark">הירשם</a>
+    </ng-container> -->
+    
+    <h4>
+        <ng-container *ngIf="user">
+            <a routerLink="/logout" routerLinkActive="active" class="btn btn-dark">התנתק</a>
+            <span> | </span>
+            <span>Hello {{user.firstName}} {{user.lastName}}</span>
+            <br>
+            <a class="btn btn-dark" routerLink="/admin">Admin Area</a>
+
+        </ng-container>
+    </h4>
+    
+</div>

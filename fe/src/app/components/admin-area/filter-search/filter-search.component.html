@@ -1,0 +1,27 @@
+<div class="box">
+
+    <form #myForm="ngForm" (submit)="send()">
+
+
+        <label>קטגוריה:</label>
+        <select #categoryBox="ngModel" type="" [(ngModel)]="filter.categoryId" name="categoryId" required>
+            <option *ngFor="let category of categories" [ngValue]="category.id">{{category.name}}</option>
+        </select>
+
+        <label>min:</label>
+        <input #minBox="ngModel" type="number" step="0.01" [(ngModel)]="filter.min" name="min" required>
+        <span *ngIf="minBox.invalid && minBox.touched">Missing min.</span>
+
+        <label>max: </label>
+        <input #maxBox="ngModel" type="number" [(ngModel)]="filter.max" name="max" required>
+        <span *ngIf="maxBox.invalid && maxBox.touched">Missing max.</span>
+
+        <button [disabled]="myForm.form.invalid">חפש</button>
+
+    </form>
+
+    <span *ngFor="let p of products" ngClass='col-12'>
+        <app-product-card [product]="p"></app-product-card>
+    </span>
+
+</div>

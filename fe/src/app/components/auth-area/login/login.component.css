@@ -1,0 +1,41 @@
+form {
+    width: 300px;
+    margin: auto;
+    text-align: left;
+}
+
+input, button, label {
+	width: 100%;
+    box-sizing: border-box;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+
+label{
+    text-align: right;
+}
+
+.card {
+    /* border-radius: 50px; */
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    color: black;
+    background-color: #f3f3f3;
+
+}
+
+span {
+    position: absolute;
+    margin: 0 20px;
+    color: pink;
+    font-size: x-large;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    flex: border-box;
+}
+

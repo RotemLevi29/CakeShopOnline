@@ -1,0 +1,25 @@
+
+        <div class="card">
+            <div>
+                <h5>
+                   <u>מוצר</u> : {{product.name}}
+                </h5>
+            </div>
+            <div>
+
+                <a [routerLink]="'/products/edit/' + product.id">
+                    <img [src]="imageUrl + product.imageName" />
+                </a>
+                מחיר: {{product.price}}
+                <br>
+                קטגוריה: {{product.category.name}}
+            </div>
+            <div>
+                <a routerLink="/products/edit/{{product.id}}" class="btn btn-info">עריכה</a>
+                
+                
+                <a href="javascript:void 0" (click)="delete()"  class="btn btn-warning">מחיקה</a>
+                
+            </div>
+            </div>
+

@@ -1,0 +1,79 @@
+[
+    {
+        "imageName": "209589.jpg",
+        "name": "גבינה אפויה",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b45"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b53"
+        },
+        "price": "68 "
+    },
+    {
+        "imageName": "223795.jpg",
+        "name": "גבינ\"ש",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b45"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b53"
+        },
+        "price": "68 "
+    },
+    {
+        "imageName": "224112.jpg",
+        "name": "גבינה ותות",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b45"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b51"
+        },
+        "price": "68 "
+    },
+    {
+        "imageName": "224111.jpg",
+        "name": "גבינה פירורים",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b45"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b55"
+        },
+        "price": "68 "
+    },
+    {
+        "imageName": "223794.jpg",
+        "name": "גבינה קפוצ'ינו",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b45"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b52"
+        },
+        "price": "68 "
+    },
+    {
+        "imageName": "294152.jpg",
+        "name": "גבינה אפויה ללא תוספת סוכר",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b45"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b53"
+        },
+        "price": "68 "
+    },
+    {
+        "imageName": "261339.jpg",
+        "name": "עוגת שלגיה",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b45"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b52"
+        },
+        "price": "156 "
+    }
+]

@@ -1,0 +1,42 @@
+<div class="card">
+
+    <div>
+        <h3>
+             {{product.name}}
+        </h3>
+    </div>
+    <div>
+        <img [src]="imageUrl + product.imageName" />
+        מחיר: רק {{product.price}} &#8362;
+        <br>
+    </div>
+    <div>
+
+        <button class="btn btn-lg btn-outline-primary" (click)="open(content)">
+            קנה עכשיו
+        </button>
+
+    </div>
+
+    <!-- https://ng-bootstrap.github.io/#/components/modal/examples -->
+
+
+    <!-- Modal with default options -->
+    <ng-template #content let-modal>
+        <div class="modal-header">
+            <h1>שמחים שבחרתם לרכוש מאיתנו😊</h1>
+        </div>
+        <div class="modal-body">
+            למשלוחים נא לשלוח הודעה למספר 052-123456
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">יציאה</button>
+        </div>
+    </ng-template>
+
+
+    <!-- <pre>{{ closeResult }}</pre> -->
+
+
+
+</div>

@@ -1,0 +1,52 @@
+ <div class="row">  
+
+
+
+   <div [ngClass]="{
+      'col-12': !showCart,
+      'col-10': showCart
+      }">
+
+
+    <app-menu (selectCategoryEvent)="chooseCategory($event)"></app-menu>
+        <form>
+            <div class="form-group col-8">
+                <input type="text" (keyup)="onKey($event)" class="form-control" id="filter" placeholder="חפש מוצר">
+            </div>
+        </form>
+        <span>{{values}}</span>
+    
+
+
+    <br>
+        <app-please-wait *ngIf="!products"></app-please-wait>
+
+        <!-- <app-product-card *ngFor="let p of products" [product]="p"></app-product-card> -->
+        
+
+
+        <span *ngIf="!showSerch">
+            <span *ngFor="let p of products">
+                <app-product-card *ngIf="selectedCategoryName == p.category.name" [product]="p"></app-product-card>
+            </span>
+
+            <span *ngIf="selectedCategoryName == ''" >
+                <!-- <app-product-card *ngIf="selectedCategoryName == p.category.name" [product]="p"></app-product-card> -->
+                <app-product-card *ngFor="let p of products" [product]="p"></app-product-card>
+              </span>
+
+        </span>
+
+        
+        <span *ngIf="showSerch">
+            <span *ngFor="let p of products">
+                <app-product-card *ngIf="filterSerch(p.name)" [product]="p"></app-product-card>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    
+
+</div>

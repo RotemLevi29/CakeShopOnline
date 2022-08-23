@@ -1,0 +1,52 @@
+<h1>Stock Market News And Updates From Stockedio.com</h1>
+<p>A paratraph with font-face css</p>
+
+
+<script>
+    if (typeof (stockdio_events) == "undefined") {
+        stockdio_events = true;
+        var stockdio_eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var stockdio_eventer = window[stockdio_eventMethod];
+        var stockdio_messageEvent = stockdio_eventMethod == "attachEvent" ? "onmessage" : "message";
+        stockdio_eventer(stockdio_messageEvent, function (e) {
+            if (typeof (e.data) != "undefined" && typeof (e.data.method) != "undefined") {
+                eval(e.data.method);
+            }
+        }, false);
+    }
+</script>
+<iframe id='st_437bcc9fed9b4459ae0c4030b47c8799' frameBorder='0' scrolling='no' width='100%' height='100%'
+    src='https://api.stockdio.com/visualization/financial/charts/v1/EconomicNews?app-key=D80B9C9D28EB499C82BF7AB2ED00657C&includeDescription=false&imageWidth=40&imageHeight=40&palette=Financial-Light&onload=st_437bcc9fed9b4459ae0c4030b47c8799'></iframe>
+<script>
+    if (typeof (stockdio_events) == "undefined") {
+        stockdio_events = true;
+        var stockdio_eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var stockdio_eventer = window[stockdio_eventMethod];
+        var stockdio_messageEvent = stockdio_eventMethod == "attachEvent" ? "onmessage" : "message";
+        stockdio_eventer(stockdio_messageEvent, function (e) {
+            if (typeof (e.data) != "undefined" && typeof (e.data.method) != "undefined") {
+                eval(e.data.method);
+            }
+        }, false);
+    }
+</script>
+<iframe id='st_34fe408243c64d1ba7ec8a0e565e12ca' frameBorder='0' scrolling='no' width='100%' height='100%'
+    src='https://api.stockdio.com/visualization/financial/charts/v1/EconomicNews?app-key=D80B9C9D28EB499C82BF7AB2ED00657C&imageWidth=200&palette=Financial-Light&onload=st_34fe408243c64d1ba7ec8a0e565e12ca'></iframe>
+<iframe frameBorder='0' scrolling='no' width='800' height='420'
+    src='https://api.stockdio.com/visualization/financial/charts/v1/HistoricalPrices?app-key=D80B9C9D28EB499C82BF7AB2ED00657C&symbol=AAPL&dividends=true&splits=true&palette=Financial-Light'></iframe>
+
+<script>
+    if (typeof (stockdio_events) == "undefined") {
+        stockdio_events = true;
+        var stockdio_eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var stockdio_eventer = window[stockdio_eventMethod];
+        var stockdio_messageEvent = stockdio_eventMethod == "attachEvent" ? "onmessage" : "message";
+        stockdio_eventer(stockdio_messageEvent, function (e) {
+            if (typeof (e.data) != "undefined" && typeof (e.data.method) != "undefined") {
+                eval(e.data.method);
+            }
+        }, false);
+    }
+</script>
+<iframe id='st_a9ee4a40367c491caf8423da09e2b003' frameBorder='0' scrolling='no' width='100%' height='100%'
+    src='https://api.stockdio.com/visualization/financial/charts/v1/OfficersDirectors?app-key=D80B9C9D28EB499C82BF7AB2ED00657C&symbol=AAPL&palette=Financial-Light&title=Officers%20and%20Directors&onload=st_a9ee4a40367c491caf8423da09e2b003'></iframe>

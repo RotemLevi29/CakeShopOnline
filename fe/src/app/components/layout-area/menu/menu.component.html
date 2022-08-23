@@ -1,0 +1,22 @@
+<!-- <div>
+    <nav>
+        <a routerLink="/home" routerLinkActive="active">Home</a>
+        <a routerLink="/products" routerLinkActive="active">Products</a>
+        <a routerLink="/about" routerLinkActive="active">About</a>
+        <a routerLink="/contact-us" routerLinkActive="active">Contact Us</a>
+        <a *ngIf="isAdmin" routerLink="/admin" routerLinkActive="active">Admin</a>
+    </nav>
+</div> -->
+
+<div class="btn-group">
+
+    <div *ngFor="let c of categories" class="munu" >
+
+    <button type="button" class="btn btn-danger"(click)="sendCategoryName(c.name)" > {{c.name}}</button>
+
+    </div>
+
+    
+
+</div>
+.

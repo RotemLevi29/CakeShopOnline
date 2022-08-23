@@ -1,0 +1,343 @@
+[
+    {
+        "imageName": "209685.jpg",
+        "name": "קראנץ שוקולד",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b53"
+        },
+        "price": "44 "
+    },
+    {
+        "imageName": "209686.jpg",
+        "name": "קראנץ פרג",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b52"
+        },
+        "price": "44 "
+    },
+    {
+        "imageName": "209687.jpg",
+        "name": "קראנץ גבינה וריקוטה",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b55"
+        },
+        "price": "44 "
+    },
+    {
+        "imageName": "209688.jpg",
+        "name": "קראנץ אגוזים וקינמון",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b52"
+        },
+        "price": "44 "
+    },
+    {
+        "imageName": "209689.jpg",
+        "name": "צמת שמרים שוקולד",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b51"
+        },
+        "price": "58 "
+    },
+    {
+        "imageName": "269393.jpg",
+        "name": "קראנץ חלבה",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b54"
+        },
+        "price": "44 "
+    },
+    {
+        "imageName": "294148.jpg",
+        "name": "קראנץ סינבון",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b54"
+        },
+        "price": "44 "
+    },
+    {
+        "imageName": "244744.jpg",
+        "name": "קראנץ בייגלה",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b55"
+        },
+        "price": "44 "
+    },
+    {
+        "imageName": "294123.jpg",
+        "name": "\tעוגת רוגעלך \t",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b52"
+        },
+        "price": "58 "
+    },
+    {
+        "imageName": "294130.jpg",
+        "name": "עוגת סינבון ",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b53"
+        },
+        "price": "58 "
+    },
+    {
+        "imageName": "294172.jpg",
+        "name": "קראנץ מגנום",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b52"
+        },
+        "price": ""
+    },
+    {
+        "imageName": "209694.jpg",
+        "name": "קרואסון גבינה",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b51"
+        },
+        "price": "17 "
+    },
+    {
+        "imageName": "209695.jpg",
+        "name": "קרואסון שוקולד",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b54"
+        },
+        "price": "17 "
+    },
+    {
+        "imageName": "209696.jpg",
+        "name": "קרואסון קינמון",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b51"
+        },
+        "price": "17 "
+    },
+    {
+        "imageName": "209697.jpg",
+        "name": "קרואסון טארט טאטן",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b51"
+        },
+        "price": "17 "
+    },
+    {
+        "imageName": "209698.jpg",
+        "name": "קרואסון חמאה",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b52"
+        },
+        "price": "15 "
+    },
+    {
+        "imageName": "209699.jpg",
+        "name": "רוגעלך שוקולד",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b54"
+        },
+        "price": "17 "
+    },
+    {
+        "imageName": "209700.jpg",
+        "name": "קרואסון שקדים",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b53"
+        },
+        "price": "17 "
+    },
+    {
+        "imageName": "209701.jpg",
+        "name": "בריוש גבינה וריקוטה",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b52"
+        },
+        "price": "16 "
+    },
+    {
+        "imageName": "209702.jpg",
+        "name": "בריוש שוקולד",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b54"
+        },
+        "price": "16 "
+    },
+    {
+        "imageName": "224174.jpg",
+        "name": "בריוש חמאה",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b52"
+        },
+        "price": "16 "
+    },
+    {
+        "imageName": "209705.jpg",
+        "name": "סטיק פרמזן",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b53"
+        },
+        "price": "18 "
+    },
+    {
+        "imageName": "209706.jpg",
+        "name": "פלוט גבינה וזיתים",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b53"
+        },
+        "price": "18 "
+    },
+    {
+        "imageName": "222137.jpg",
+        "name": "קרואסון פטה ומנצ'גו",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b54"
+        },
+        "price": "18 "
+    },
+    {
+        "imageName": "209708.jpg",
+        "name": "סמבוסק פיצה",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b54"
+        },
+        "price": "18 "
+    },
+    {
+        "imageName": "218933.jpg",
+        "name": "סמבוסק מצרלה ובולגרית",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b52"
+        },
+        "price": "18 "
+    },
+    {
+        "imageName": "209710.jpg",
+        "name": "פרעצל",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b53"
+        },
+        "price": "18 "
+    },
+    {
+        "imageName": "209711.jpg",
+        "name": "בורקס גבינה",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b51"
+        },
+        "price": "18 "
+    },
+    {
+        "imageName": "209712.jpg",
+        "name": "בורקס תפוח אדמה",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b55"
+        },
+        "price": "18 "
+    },
+    {
+        "imageName": "209713.jpg",
+        "name": "קרואסון חלבה",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b55"
+        },
+        "price": "17 "
+    },
+    {
+        "imageName": "209714.jpg",
+        "name": "קרואסון פיסטוק",
+        "categoryId": {
+            "$oid": "62daa3222eaa3cc42d391b4c"
+        },
+        "supllierId": {
+            "$oid": "62daa3aa2eaa3cc42d391b55"
+        },
+        "price": "17 "
+    }
+]

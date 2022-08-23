@@ -1,0 +1,11 @@
+div {
+    position: fixed;
+    top: 10px;
+    left: 15%;
+    color: white;
+}
+
+a{
+    font: size 18px;
+    font-style: bold;
+}

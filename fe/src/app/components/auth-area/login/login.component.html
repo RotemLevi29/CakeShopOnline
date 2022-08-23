@@ -1,0 +1,45 @@
+<div class="">
+    <!-- <div class="card" style="width: 18rem;"> -->
+
+
+
+    <div class="card">
+        <div class="card-body" *ngIf="!user">
+            <h5 class="card-title">משתמש חדש? <a routerLink="/register" routerLinkActive="active"
+                    class="btn btn-dark">הירשם</a>
+            </h5>
+        </div>
+        <div class="card-body" *ngIf="user">
+            <a routerLink="/products" routerLinkActive="active" class="btn btn-dark">😍ברוך הבא💕</a>
+        </div>
+    </div>
+
+    <div *ngIf="user">
+        <br>
+        <br>
+        <br>
+        <a routerLink="/products" routerLinkActive="active" class="btn btn-dark"><img
+                src="./../../../assets/images/shopNow.jpg" alt="">
+        </a>
+        <br>
+        <br>
+        <br>
+        <a class="btn btn-dark" routerLink="/admin">Admin Area</a>
+    </div>
+    <div *ngIf="!user">
+
+        <h2>כבר רשום? התחבר!</h2>
+
+        <form (submit)="login()">
+
+            <label>שם משתמש: </label>
+            <input type="text" name="username" [(ngModel)]="credentials.username">
+
+            <label>ססמא: </label>
+            <input type="password" name="password" [(ngModel)]="credentials.password">
+
+            <button>התחבר</button>
+
+        </form>
+    </div>
+</div>

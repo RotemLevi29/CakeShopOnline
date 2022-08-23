@@ -1,0 +1,7 @@
+{
+
+    "secretJwtKey": "Great_Year_and_Day_Chen_Yaara_Rotem",
+    "database": {
+        "connectionString": "mongodb://localhost:27017/cakesDb"
+    }
+}
